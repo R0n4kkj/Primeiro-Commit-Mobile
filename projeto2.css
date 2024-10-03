@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+header {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+section {
+    background-color: rgb(93, 93, 125,16%);
+    height: 100vh;
+    width: 31vw;
+    position:absolute;
+    left: 1175px;
+}
+
+header :nth-child(2) {
+    opacity: 40%;
+}
+
+
+a {
+    margin-right: 48px;
+    font-size: 28px;
+    line-height: 41.5px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 50%;
+}
+
+article {
+    display:inline-block;
+    position: absolute;
+    top:320px;
+    left:105px;
+}
+h1 {
+    display:inline-block;
+    font-size:70px;
+    line-height: 80px;
+    width:368px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    margin-bottom: 20px;
+    opacity: 60%;
+}
+
+button {
+    font-size: 24px;
+    color: white;
+    line-height: 35.5px;
+    background-color: #9499EA;
+    text-align:center;
+    width: 240px;
+    height: 55px;
+    border:none;
+    border-radius:30px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 65%;
+}
+
+button:active {
+    width: 264px;
+    height: 60px;
+    border-radius:34px;
+}
+
+img {
+    display:inline-block;
+    position: relative;
+    width:450px;
+    height: 561px;
+    top: 78px;
+    right: 140px;
+}
+
+
+/* mobile */
+
+@media screen and (max-width: 430px) {
+
+    section {
+        width: 100vw;
+        height:50vh;
+        left:0px;
+        top: 50vh;
+    }
+
+    article {
+        display:inline-block;
+        position: absolute;
+        top:80px;
+        left:70px;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 52px;
+        width: 294px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 294px;
+        text-align:center;
+        margin-bottom: 20px;
+    }
+
+    button {
+        height: 68px;
+        width: 294px;
+        border-radius: 50px;
+    }
+
+    img {
+        width: 298px;
+        height: 354px;
+        position: relative;
+        left: 16vw;
+    }
+
+    header {
+        display: none;
+    }
+
+    
+}
