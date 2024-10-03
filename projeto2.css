@@ -24,7 +24,7 @@ section {
 }
 
 header :nth-child(2) {
-    opacity: 40%;
+    opacity: 0.40;
 }
 
 
