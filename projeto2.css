@@ -37,6 +37,7 @@ a {
     font-size: 28px;
     line-height: 41.5px;
     cursor: pointer;
+    text-decoration:none;
 }
 
 a:hover {
