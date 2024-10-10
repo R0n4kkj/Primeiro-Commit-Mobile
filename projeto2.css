@@ -27,6 +27,10 @@ header :nth-child(2) {
     opacity: 0.40;
 }
 
+header :nth-child(2):hover {
+    opacity: 100%;
+    color:#9499EA;
+}
 
 a {
     margin-right: 48px;
@@ -76,13 +80,13 @@ button {
 }
 
 button:hover {
-    opacity: 65%;
-}
-
-button:active {
     width: 264px;
     height: 60px;
     border-radius: 34px;
+}
+
+button:active {
+   opacity:65%;
 }
 
 img {
@@ -213,8 +217,4 @@ img {
         top:10px;
         left: 16vw;
     }
-
-
-
-
 }
